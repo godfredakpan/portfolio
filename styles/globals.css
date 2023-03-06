@@ -194,4 +194,8 @@ footer ul li {
   footer ul li {
     margin-left: 0;
   }
+
+  .partners {
+    display: none;
+  }
 }

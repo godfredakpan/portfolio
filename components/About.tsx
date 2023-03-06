@@ -34,6 +34,8 @@ export default function About() {
                     <h3 className="white">I believe great things comes to those who seek great things!</h3>
                     <p className="gray">Results-driven software engineer with over 8 years of experience in programming, strategic problem-solving and digital automation. <br/><br/>
                     Experienced in building large products to achieve human needs and streamline business management.</p>
+                    <br></br>
+                    <a className="green" href="mailto:hello@godfredakpan.com">Let&#39;s talk!</a>
                 </div>
             </div>
 
