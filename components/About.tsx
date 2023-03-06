@@ -12,12 +12,12 @@ export default function About() {
                         description="I create design  products with unique ideas."
                         projects={7} /> */}
                     <AboutCard
-                        title="Web Application Development"
+                        title="Web App Development"
                         icon="/icons/code.svg"
                         description="I develop scalable web applications that are fast and secure."
                         />
                     <AboutCard
-                        title="Mobile Application Development"
+                        title="Mobile App Development"
                         icon="/icons/phone.svg"
                         description="I develop mobile applications with the latest technologies."
                          />
@@ -38,14 +38,14 @@ export default function About() {
             </div>
 
             <div className="flex partners justify-space">
-                <a href="https://54gene.com/"><Image src="/images/partners/54gene.svg" height={45} width={180} alt="54gene" /></a>
-                <a href="https://actual.ly/"><Image src="/images/partners/actually.svg" height={45} width={180} alt="actually" /></a>
-                 <a href="https://hrmaneja.com/"><Image src="/images/partners/hrmaneja.svg" height={45} width={180} alt="hrmaneja" /></a>
-                 <a href="https://irunauto.com/"><Image src="/images/partners/irun.svg" height={45} width={180} alt="irun" /></a>
-                 <a href="https://www.posterbot.ai/"><Image src="/images/partners/posterbot.svg" height={45} width={180} alt="posterbot" /></a>
-                 <a href="https://purple.xyz/"><Image src="/images/partners/purple.svg" height={45} width={180} alt="purple" /></a>
-                 <a href="https://oolio.com/"><Image src="/images/partners/tillpos.svg" height={45} width={180} alt="tillpos" /></a>
-                 <a href="https://www.volibra.com/"><Image src="/images/partners/volibra.svg" height={45} width={180} alt="volibra" /></a>
+                <a className="col-md-12" href="https://54gene.com/"><Image src="/images/partners/54gene.svg" height={150} width={180} alt="54gene" /></a>
+                <a href="https://actual.ly/"><Image src="/images/partners/actually.svg" height={150} width={180} alt="actually" /></a>
+                 <a href="https://hrmaneja.com/"><Image src="/images/partners/hrmaneja.svg" height={150} width={180} alt="hrmaneja" /></a>
+                 <a href="https://irunauto.com/"><Image src="/images/partners/irun.svg" height={150} width={180} alt="irun" /></a>
+                 <a href="https://www.posterbot.ai/"><Image src="/images/partners/posterbot.svg" height={150} width={180} alt="posterbot" /></a>
+                 <a href="https://purple.xyz/"><Image src="/images/partners/purple.svg" height={150} width={180} alt="purple" /></a>
+                 <a href="https://oolio.com/"><Image src="/images/partners/tillpos.svg" height={150} width={180} alt="tillpos" /></a>
+                 <a href="https://www.volibra.com/"><Image src="/images/partners/volibra.svg" height={150} width={180} alt="volibra" /></a>
             </div>
         </section>
     )
