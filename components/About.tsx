@@ -6,11 +6,6 @@ export default function About() {
         <section id="about" className="dark-bg">
             <div className="flex">
                 <div className="flex-full">
-                    {/* <AboutCard
-                        title="UX/UI Design"
-                        icon="/icons/design.svg"
-                        description="I create design  products with unique ideas."
-                        projects={7} /> */}
                     <AboutCard
                         title="Web App Development"
                         icon="/icons/code.svg"
@@ -20,6 +15,11 @@ export default function About() {
                         title="Mobile App Development"
                         icon="/icons/phone.svg"
                         description="I develop mobile applications with the latest technologies."
+                         />
+                    <AboutCard
+                        title="Podcaster"
+                        icon="/icons/mic.svg"
+                        description="I share my thoughts and experience vocally and visually."
                          />
                     <AboutCard
                         title="Server Management"
@@ -39,15 +39,8 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="flex partners justify-space">
-                <a className="col-md-12" href="https://54gene.com/"><Image src="/images/partners/54gene.svg" height={150} width={180} alt="54gene" /></a>
-                <a href="https://actual.ly/"><Image src="/images/partners/actually.svg" height={150} width={180} alt="actually" /></a>
-                 <a href="https://hrmaneja.com/"><Image src="/images/partners/hrmaneja.svg" height={150} width={180} alt="hrmaneja" /></a>
-                 <a href="https://irunauto.com/"><Image src="/images/partners/irun.svg" height={150} width={180} alt="irun" /></a>
-                 <a href="https://www.posterbot.ai/"><Image src="/images/partners/posterbot.svg" height={150} width={180} alt="posterbot" /></a>
-                 <a href="https://purple.xyz/"><Image src="/images/partners/purple.svg" height={150} width={180} alt="purple" /></a>
-                 <a href="https://oolio.com/"><Image src="/images/partners/tillpos.svg" height={150} width={180} alt="tillpos" /></a>
-                 <a href="https://www.volibra.com/"><Image src="/images/partners/volibra.svg" height={150} width={180} alt="volibra" /></a>
+            <div className="justify-space">
+
             </div>
         </section>
     )
