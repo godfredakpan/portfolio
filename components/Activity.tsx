@@ -72,7 +72,7 @@ function AboutCard ({title, podcast, description, link} : Props) {
             </div>
             <p className="white">{description}</p>
             {link &&  
-          <a className="button-8" href={link}>Listen Here</a>
+          <a className="button-8" target="_blank" href={link} rel="noreferrer">Listen Here</a>
         }
         </div>
     )
