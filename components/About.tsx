@@ -9,7 +9,7 @@ export default function About() {
 
                 <div className="flex-full about-text">
                     <h5 className="gray">Bio</h5>
-                    <h1 className="green">Hello, I'm Godfred</h1>
+                    <h1 className="green">Hello, I&apos;m Godfred</h1>
                     <h3 className="white">I build impactful, scalable solutions.</h3>
                     <p className="gray">
                         I&apos;m a full-stack developer with over 8 years of experience delivering e-commerce, logistics, and SaaS platforms. I specialize in React, Node.js, Laravel, and AWS, creating high-performance systems that drive business growth. From slashing deployment times by 30% to boosting user retention by 25%, I focus on measurable outcomes. I thrive in fast-paced startups, leading sprints, mentoring teams, and writing clean, maintainable code.
