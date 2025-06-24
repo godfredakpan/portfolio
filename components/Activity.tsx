@@ -32,7 +32,7 @@ export default function Activity() {
                 <h1 className="green">Conversations Worth Sharing</h1>
                 <h3 className="white">Tech, career, and impact from my voice.</h3>
                 <p className="gray">
-                    I've shared thoughts and insights on building products, scaling infrastructure, mentoring teams, and navigating tech careers — all through podcast appearances and interviews.
+                    I&apos;ve shared thoughts and insights on building products, scaling infrastructure, mentoring teams, and navigating tech careers — all through podcast appearances and interviews.
                 </p>
             </div>
             <div className="flex" style={{ gap: "1rem" }}>
