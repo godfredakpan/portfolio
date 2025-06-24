@@ -5,55 +5,56 @@ export default function About() {
     return (
         <section id="about" className="dark-bg">
             <div className="flex">
+                
+
+                <div className="flex-full about-text">
+                    <h5 className="gray">Bio</h5>
+                    <h1 className="green">Hello, I'm Godfred</h1>
+                    <h3 className="white">I build impactful, scalable solutions.</h3>
+                    <p className="gray">
+                        I’m a full-stack developer with over 8 years of experience delivering e-commerce, logistics, and SaaS platforms. I specialize in React, Node.js, Laravel, and AWS, creating high-performance systems that drive business growth. From slashing deployment times by 30% to boosting user retention by 25%, I focus on measurable outcomes. I thrive in fast-paced startups, leading sprints, mentoring teams, and writing clean, maintainable code.
+                        <br/><br/>
+                        Let’s build something that solves real problems and delivers value.
+                    </p>
+                    <br/>
+                    <a className="green" href="mailto:godfredakpan@gmail.com">Let us work together</a>
+                </div>
+
                 <div className="flex-full">
                     <AboutCard
                         title="Web App Development"
                         icon="/icons/code.svg"
-                        description="I develop scalable web applications that are fast and secure."
-                        />
+                        description="I develop scalable web platforms using React, Next.js, Laravel, and TypeScript, driving performance and user engagement."
+                    />
                     <AboutCard
                         title="Mobile App Development"
                         icon="/icons/phone.svg"
-                        description="I develop mobile applications with the latest technologies."
-                         />
+                        description="I build cross-platform mobile apps with React Native and Swift, delivering seamless UI/UX and robust integrations."
+                    />
                     <AboutCard
-                        title="Podcaster"
+                        title="Tech Mentor & Speaker"
                         icon="/icons/mic.svg"
-                        description="I share my thoughts and experience vocally and visually."
-                         />
+                        description="I mentor developers and share insights on building scalable systems through podcasts and tech talks."
+                    />
                     <AboutCard
-                        title="Server Management"
+                        title="Cloud & DevOps"
                         icon="/icons/server.svg"
-                        description="Managing AWS, Digital Ocean, Linode, and other cloud servers."
-                         />
+                        description="I deploy and manage high-availability apps on AWS and Docker, optimizing for scale and reliability."
+                    />
                 </div>
-                
-                <div className="flex-full about-text">
-                    <h5 className="gray">Bio</h5>
-                    <h1 className="green">Hello, I&#39;m Godfred</h1>
-                    <h3 className="white">I believe great things comes to those who seek great things!</h3>
-                    <p className="gray">Results-driven software engineer with over 8 years of experience in programming, strategic problem-solving and digital automation. <br/><br/>
-                    Experienced in building large products to achieve human needs and streamline business management.</p>
-                    <br></br>
-                    <a className="green" href="mailto:hello@godfredakpan.com">Let&#39;s talk!</a>
-                </div>
-            </div>
-
-            <div className="justify-space">
-
             </div>
         </section>
-    )
+    );
 }
 
 type Props = {
     title: string,
     icon: string | StaticImageData,
     description: string,
-}
+};
 
-function AboutCard ({title, icon, description} : Props) {
-    return(
+function AboutCard({ title, icon, description }: Props) {
+    return (
         <div className="light-bg about-card">
             <div className="flex justify-space">
                 <h3 className="green">{title}</h3>
@@ -61,5 +62,5 @@ function AboutCard ({title, icon, description} : Props) {
             </div>
             <p className="white">{description}</p>
         </div>
-    )
+    );
 }
