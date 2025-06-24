@@ -12,9 +12,9 @@ export default function About() {
                     <h1 className="green">Hello, I'm Godfred</h1>
                     <h3 className="white">I build impactful, scalable solutions.</h3>
                     <p className="gray">
-                        I’m a full-stack developer with over 8 years of experience delivering e-commerce, logistics, and SaaS platforms. I specialize in React, Node.js, Laravel, and AWS, creating high-performance systems that drive business growth. From slashing deployment times by 30% to boosting user retention by 25%, I focus on measurable outcomes. I thrive in fast-paced startups, leading sprints, mentoring teams, and writing clean, maintainable code.
+                        I&apos;m a full-stack developer with over 8 years of experience delivering e-commerce, logistics, and SaaS platforms. I specialize in React, Node.js, Laravel, and AWS, creating high-performance systems that drive business growth. From slashing deployment times by 30% to boosting user retention by 25%, I focus on measurable outcomes. I thrive in fast-paced startups, leading sprints, mentoring teams, and writing clean, maintainable code.
                         <br/><br/>
-                        Let’s build something that solves real problems and delivers value.
+                        Let&apos;s build something that solves real problems and delivers value.
                     </p>
                     <br/>
                     <a className="green" href="mailto:godfredakpan@gmail.com">Let us work together</a>
